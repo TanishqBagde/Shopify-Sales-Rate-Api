@@ -7,7 +7,7 @@ module.exports = {
   externals: [nodeExternals()], // Exclude node_modules from the bundle
   output: {
     filename: 'bundle.js', // Output bundle file
-    path: path.resolve(__dirname, 'dist'), // Output directory
+    path: path.resolve(__dirname, 'public'), // Change output directory to 'public'
   },
   module: {
     rules: [
