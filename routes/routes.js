@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const controllers = require('./controllers');
+const controllers = require('../controllers/controllers');
 
 router.get('/sales-over-time', controllers.getTotalSalesOverTime);
 router.get('/sales-growth-rate', controllers.getSalesGrowthRate);
