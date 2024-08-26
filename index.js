@@ -5,7 +5,7 @@ const app = express();
 const routes = require('./routes/routes');
 
 app.use(cors({
-    origin: 'http://localhost:3000' 
+    origin: 'https://shopify-rate-tanishq.netlify.app/' 
 }));
 
 // Connecting to mongoDB
